@@ -1,0 +1,29 @@
+from setuptools import setup, find_packages
+
+setup(
+    name="ai_agent_ecosystem",
+    version="0.1.0",
+    packages=find_packages(),
+    install_requires=[
+        "fastapi>=0.109.0",
+        "uvicorn>=0.27.0",
+        "pydantic>=2.5.0",
+        "python-dotenv>=1.0.0",
+        "sqlalchemy>=2.0.25",
+        "aiohttp>=3.9.0",
+        "prometheus-client>=0.19.0",
+        "redis>=5.0.1",
+        "celery>=5.3.6",
+        "pytest>=7.4.4",
+        "python-jose>=3.3.0",
+        "passlib>=1.7.4",
+        "bcrypt>=4.1.2",
+        "requests>=2.31.0",
+        "pandas>=2.1.4",
+        "numpy>=1.26.3",
+        "scikit-learn>=1.3.2",
+        "matplotlib>=3.9.2",
+        "seaborn>=0.13.2"
+    ],
+    python_requires=">=3.8",
+)
